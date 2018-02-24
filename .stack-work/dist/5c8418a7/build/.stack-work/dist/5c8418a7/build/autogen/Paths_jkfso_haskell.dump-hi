@@ -1,10 +1,10 @@
 
 ==================== FINAL INTERFACE ====================
-2018-02-24 19:48:32.6576862 UTC
+2018-02-24 20:30:23.0415603 UTC
 
 interface jkfso-haskell-0.1.0.0-9wfP2njLanP40orVtGiOyG:Paths_jkfso_haskell 8022
-  interface hash: 028561aad5baa26415aa4a9a8b575555
-  ABI hash: 5b71f71d68b344d08c7f2095cf8ba481
+  interface hash: fed13e918f19218630d55cf5d706d39d
+  ABI hash: eacc62267c995b3da0e3815b01265d11
   export-list hash: 11372b505ce711ca20a5218b85f326f7
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 0d07676161fd632e02f98a2673a2c05a
@@ -61,14 +61,14 @@ c896cb5d21dd1831c5489cf9da9c57b5
   $trModule4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
      Unfolding: ("jkfso-haskell-0.1.0.0-9wfP2njLanP40orVtGiOyG"#) -}
-8557e63bac57cc7c12e2d5e6f8afaa28
+78b2da8cd54294e4cd2e9839d4bf797e
   getBinDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_jkfso_haskell.getBinDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-dedf013b7f520e8715e5decc2595848b
+67166e647225c8e7cf633b6786f99351
   getBinDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -80,7 +80,7 @@ dedf013b7f520e8715e5decc2595848b
                    Paths_jkfso_haskell.getBinDir5
                    Paths_jkfso_haskell.getBinDir2
                    eta) -}
-bdf0e7b94427296d416230cc91e60a42
+78ecdd1cbe0f5f7ff23ee50c1985febb
   getBinDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -107,14 +107,14 @@ bdf0e7b94427296d416230cc91e60a42
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_jkfso_haskell.getBinDir3 #) } } }) -}
-0f265b7966c29c4a404b3fa937280006
+79a9b314be7179999671ebc13e76a469
   getBinDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_jkfso_haskell.getBinDir4) -}
-340911ae7c892a15f14aff3924b5a609
+a91233fcd75fb2f502401f3564ea5dee
   getBinDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\Haskell\\jkfso-haskell\\.stack-work\\install\\9d660cc9\\bin"#) -}
+     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\CPSC449-jkfso-haskell\\.stack-work\\install\\9d660cc9\\bin"#) -}
 1b4750c590b1aedbbe6a06fb5e11f03e
   getBinDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
@@ -129,14 +129,14 @@ d74e33e038c6e2c55a6aabb3d6cc7f94
 6bbfa49528bde9b56c5b3a8c3ebe5e30
   getBinDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("jkfso_haskell_bindir"#) -}
-75fd75809c06f7853d2b887d0bc85b1e
+c20df800cfacc08abfb0014df7ef6c4b
   getDataDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_jkfso_haskell.getDataDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-de8329a40ec31ac2c5e8bdd7e502cdee
+f9b2c4d5442731e9827143019f0786c2
   getDataDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -148,7 +148,7 @@ de8329a40ec31ac2c5e8bdd7e502cdee
                    Paths_jkfso_haskell.getDataDir5
                    Paths_jkfso_haskell.getDataDir2
                    eta) -}
-5467885a8839beb148d8eb40694f8616
+bda293f3b8983943a04cc6a683aeeb63
   getDataDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -175,14 +175,14 @@ de8329a40ec31ac2c5e8bdd7e502cdee
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_jkfso_haskell.getDataDir3 #) } } }) -}
-eddcac87cb15b99b7144f44ea972d127
+38f5fdbff09e785cde228d2459c19a03
   getDataDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_jkfso_haskell.getDataDir4) -}
-d691aa9a65387e316ebdefe36de33309
+cbd8935f5d819613742f830df2b246f5
   getDataDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\Haskell\\jkfso-haskell\\.stack-work\\install\\9d660cc9\\share\\x86_64-windows-ghc-8.2.2\\jkfso-haskell-0.1.0.0"#) -}
+     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\CPSC449-jkfso-haskell\\.stack-work\\install\\9d660cc9\\share\\x86_64-windows-ghc-8.2.2\\jkfso-haskell-0.1.0.0"#) -}
 6bb34b14c9f74c2a9ad0ba854d17c9dc
   getDataDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
@@ -197,7 +197,7 @@ d691aa9a65387e316ebdefe36de33309
 22a75a5060eeba4ba17ad8ed141c881a
   getDataDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("jkfso_haskell_datadir"#) -}
-705ad2c8a6afb12bc3dd67c0e91fc16c
+2fb6c0387ba5c324993e2c907333eda4
   getDataFileName :: GHC.IO.FilePath -> GHC.Types.IO GHC.IO.FilePath
   {- Arity: 2, Strictness: <L,U><S,U>,
      Unfolding: InlineRule (0, True, True)
@@ -205,7 +205,7 @@ d691aa9a65387e316ebdefe36de33309
                   `cast`
                 (<GHC.IO.FilePath>_R
                  ->_R Sym (GHC.Types.N:IO[0] <GHC.IO.FilePath>_R)) -}
-82485c08ec496725f161f81183435bb2
+5cf5244076c46adb57621c6e0ba31639
   getDataFileName1 ::
     GHC.IO.FilePath
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -229,14 +229,14 @@ d691aa9a65387e316ebdefe36de33309
 68f844db86b1644f22881c0a33a84c77
   getDataFileName2 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("\\"#) -}
-3864ce4593189b39f00b1ca152596b77
+de99d03cceb26b90b7293e71bb228dcb
   getDynLibDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_jkfso_haskell.getDynLibDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-dc18be93690fc126d41b75aacd6c3c07
+d776a1cfd414914cd1d7ddaca1484e5a
   getDynLibDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -248,7 +248,7 @@ dc18be93690fc126d41b75aacd6c3c07
                    Paths_jkfso_haskell.getDynLibDir5
                    Paths_jkfso_haskell.getDynLibDir2
                    eta) -}
-e9dddb2349570416c1f3b9ce58da8781
+5533b020685782987fca0dd1cf790a8a
   getDynLibDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -275,14 +275,14 @@ e9dddb2349570416c1f3b9ce58da8781
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_jkfso_haskell.getDynLibDir3 #) } } }) -}
-9191a34590f4fcec0e565a1acbdd3295
+9424b846c6034207b87cfd546641e193
   getDynLibDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_jkfso_haskell.getDynLibDir4) -}
-af5b53eefde65330ba0e0dbc8f5c0491
+b5e5dbbc5783518e6cc5c7fe4b3913dc
   getDynLibDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\Haskell\\jkfso-haskell\\.stack-work\\install\\9d660cc9\\lib\\x86_64-windows-ghc-8.2.2"#) -}
+     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\CPSC449-jkfso-haskell\\.stack-work\\install\\9d660cc9\\lib\\x86_64-windows-ghc-8.2.2"#) -}
 7b927fd6471639f1521e1941dace6d77
   getDynLibDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
@@ -297,14 +297,14 @@ af5b53eefde65330ba0e0dbc8f5c0491
 af521910e701df37d7e08f1b80ca4a2f
   getDynLibDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("jkfso_haskell_dynlibdir"#) -}
-a30ab16d88d49efcec5040f5d04e3e4e
+cb057358beda1122faf5c460b6c6eaf5
   getLibDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_jkfso_haskell.getLibDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-1f8ab4b5dbeb36571dcbbf5a9e151274
+6342d7cf5a8c1c58f950a3ce495154b6
   getLibDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -316,7 +316,7 @@ a30ab16d88d49efcec5040f5d04e3e4e
                    Paths_jkfso_haskell.getLibDir5
                    Paths_jkfso_haskell.getLibDir2
                    eta) -}
-696a58e7caef0295e08b4d9fb4353c1b
+1d9775132695831805cf58bbe8b19f58
   getLibDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -343,14 +343,14 @@ a30ab16d88d49efcec5040f5d04e3e4e
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_jkfso_haskell.getLibDir3 #) } } }) -}
-dfdda2050e54179c6ed77877bd104556
+03abed581ebec70455d0520d9130a4dc
   getLibDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_jkfso_haskell.getLibDir4) -}
-1a717c9cdc7893ee3e28e426962eeabc
+6c87347c7c5a7671580b0b99d4522c3f
   getLibDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\Haskell\\jkfso-haskell\\.stack-work\\install\\9d660cc9\\lib\\x86_64-windows-ghc-8.2.2\\jkfso-haskell-0.1.0.0-9wfP2njLanP40orVtGiOyG"#) -}
+     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\CPSC449-jkfso-haskell\\.stack-work\\install\\9d660cc9\\lib\\x86_64-windows-ghc-8.2.2\\jkfso-haskell-0.1.0.0-9wfP2njLanP40orVtGiOyG"#) -}
 9e650e1f6fa908673effe480d0901727
   getLibDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
@@ -365,14 +365,14 @@ a14b1a13c32ded3c65f6fa76998955ca
 db03e975adcd107a5e93a511c7403c77
   getLibDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("jkfso_haskell_libdir"#) -}
-410142c1b1ed914ae41d6c3e3f046f46
+cd33773ca161a13cddbfea9860484be0
   getLibexecDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_jkfso_haskell.getLibexecDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-7b28f2073a49022739a29d0d56c6983a
+1b3dd52358b9060d608d88c761cd2aa4
   getLibexecDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -384,7 +384,7 @@ db03e975adcd107a5e93a511c7403c77
                    Paths_jkfso_haskell.getLibexecDir5
                    Paths_jkfso_haskell.getLibexecDir2
                    eta) -}
-0b310473c32f07f81f3cd1fba85291aa
+f986085af6b6b7d42a5df049723a44a1
   getLibexecDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -411,14 +411,14 @@ db03e975adcd107a5e93a511c7403c77
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_jkfso_haskell.getLibexecDir3 #) } } }) -}
-da690a36462f3e3737a00335fc895af6
+827e869bb6872788a5d4948bfef1d293
   getLibexecDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_jkfso_haskell.getLibexecDir4) -}
-e3a1e0948146ec92c8a26c012f34a0b1
+259c623d9ffe5c3392bd8a11b8355db7
   getLibexecDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\Haskell\\jkfso-haskell\\.stack-work\\install\\9d660cc9\\libexec\\x86_64-windows-ghc-8.2.2\\jkfso-haskell-0.1.0.0"#) -}
+     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\CPSC449-jkfso-haskell\\.stack-work\\install\\9d660cc9\\libexec\\x86_64-windows-ghc-8.2.2\\jkfso-haskell-0.1.0.0"#) -}
 8b5fb2e949d0e62692542f913de0c6af
   getLibexecDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld
@@ -433,14 +433,14 @@ e3a1e0948146ec92c8a26c012f34a0b1
 d745e802b5ae1edefb5d38bd0a81c909
   getLibexecDir7 :: GHC.Prim.Addr#
   {- HasNoCafRefs, Unfolding: ("jkfso_haskell_libexecdir"#) -}
-0f7a4cf7fc99cd4f42550bba50ee830a
+aabd8b36a5d086af9b512f05fb4a928a
   getSysconfDir :: GHC.Types.IO GHC.IO.FilePath
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Paths_jkfso_haskell.getSysconfDir1
                   `cast`
                 (Sym (GHC.Types.N:IO[0] <GHC.Base.String>_R)) -}
-1955c71ea583457031585243cc730e4a
+2f538b75d3626a755ecbf814f520052f
   getSysconfDir1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, GHC.Base.String #)
@@ -452,7 +452,7 @@ d745e802b5ae1edefb5d38bd0a81c909
                    Paths_jkfso_haskell.getSysconfDir5
                    Paths_jkfso_haskell.getSysconfDir2
                    eta) -}
-b8ded129ec58a005343f496e7eca1dbf
+64f6c969c542d4059bc76ee599cce100
   getSysconfDir2 ::
     GHC.Exception.SomeException
     -> GHC.Prim.State# GHC.Prim.RealWorld
@@ -479,14 +479,14 @@ b8ded129ec58a005343f496e7eca1dbf
                    GHC.Base.Just ds1
                    -> case ds1 of wild2 { Data.Type.Equality.HRefl cobox cobox1 ->
                       (# eta, Paths_jkfso_haskell.getSysconfDir3 #) } } }) -}
-98f415d4b330f4a8b1d2668269d938e4
+c448fb6f82cc7107ea15511121922209
   getSysconfDir3 :: [GHC.Types.Char]
   {- Unfolding: (GHC.CString.unpackCString#
                    Paths_jkfso_haskell.getSysconfDir4) -}
-0e83a466cce35d0b0adae14fcf896864
+0867431d28ead01449f25eec7b0640c2
   getSysconfDir4 :: GHC.Prim.Addr#
   {- HasNoCafRefs,
-     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\Haskell\\jkfso-haskell\\.stack-work\\install\\9d660cc9\\etc"#) -}
+     Unfolding: ("C:\\Users\\jicka_000\\Desktop\\CPSC449\\CPSC449-jkfso-haskell\\.stack-work\\install\\9d660cc9\\etc"#) -}
 dd967e782bcd8f76493691dfb297d17b
   getSysconfDir5 ::
     GHC.Prim.State# GHC.Prim.RealWorld

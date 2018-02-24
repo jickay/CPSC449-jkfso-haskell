@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 021fa762758d7b6fe0af53dc1324b15dd16103d2dbd2839006dc16e644afe468
+-- hash: f1cfb29314daea49261a19cde071aa92f8763884935afd32507b47e4af237ef8
 
 name:           jkfso-haskell
 version:        0.1.0.0
@@ -31,6 +31,7 @@ library
   build-depends:
       base >=4.7 && <5
   exposed-modules:
+      Input
       Lib
   other-modules:
       Paths_jkfso_haskell

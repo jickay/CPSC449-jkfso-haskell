@@ -4,14 +4,14 @@ import Input
 
 import System.Environment
 
+main :: IO()
 main = do
     -- Store arguments in arg
     args <- getArgs
     -- Get input
     contents <- input args
-    print contents
     let linesOfFile = lines contents
-    print (unlines linesOfFile)
+    print linesOfFile
     
     -- Solution filler
     let solution = "Solution: A B C D E F G H; Quality: 0"
