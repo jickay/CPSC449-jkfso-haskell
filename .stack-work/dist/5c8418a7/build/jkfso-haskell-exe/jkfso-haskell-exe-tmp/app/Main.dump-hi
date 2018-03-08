@@ -1,13 +1,13 @@
 
 ==================== FINAL INTERFACE ====================
-2018-02-24 20:43:06.5011609 UTC
+2018-02-26 20:42:32.204167 UTC
 
 interface main:Main 8022
   interface hash: 3c816d738b23f62b51136f4c862dd919
   ABI hash: 5e9df5a4cf1dcef3a2729bb5bc21df50
   export-list hash: 17ca1b1d00752eb0089ce2471405e8e7
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
-  flag hash: 49bc03923b6b72218773bcd45aaea9d8
+  flag hash: 7127f38161fddba931e3bbd7bc6403ff
   sig of: Nothing
   used TH splices: False
   where
