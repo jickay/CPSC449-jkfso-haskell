@@ -1,3 +1,5 @@
+module HardConstraints where
+
 --Function can be used to determine if there is a forced partial assignment in the forbidden list
 --returns True if there isn't a forced partial assignment in the forbidden list and False otherwise
 --Takes in forced partial assignment and forbidden list as parameters
