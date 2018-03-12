@@ -26,7 +26,7 @@ fetchMachinePenalties :: [String] -> [String]
 fetchMachinePenalties x = linesBetween x "machine penalties:" "too-near penalities"
 
 fetchTooNearPenalties :: [String] -> [String]
-fetchMachinePenalties x = linesAfter x "too-near penalities"
+fetchTooNearPenalties x = linesAfter x "too-near penalities"
 
 
 ------------------------------- GENERAL DOCUMENT SEPARATORS -------------------------------
