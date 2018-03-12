@@ -1,3 +1,5 @@
+module SoftConstraints where
+
 --Irrelevant?
 takeEight :: Int -> [Int] -> [Int]
 takeEight x [] = if x /= 0 then error "Empty List" else []
